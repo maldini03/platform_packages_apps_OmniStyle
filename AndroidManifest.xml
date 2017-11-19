@@ -251,6 +251,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </activity>
 
         <activity
+            android:name=".six_trans_interval"
+            android:label="SiX Transparent (interval)" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
             android:name=".space_interval"
             android:label="Space (interval)" >
             <intent-filter>
