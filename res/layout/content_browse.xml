@@ -38,7 +38,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                 android:id="@+id/package_select"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/system_activity_header_text" />
+                android:backgroundTint="@color/system_activity_header_text_bg" />
 
             <TextView
                 android:id="@+id/meta_creator"
