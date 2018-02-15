@@ -42,4 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="browse_theme_header">Theme headers</string>
     <string name="pick_header">Select headers</string>
     <string name="header_pack_label1">AquariOS</string>
+    <string name="sort_by_creator_menu">Sort by creator</string>
+    <string name="sort_by_tag_menu">Sort by tag</string>
+    <string name="sort_by_default_menu">Sort by name</string>
 </resources>
