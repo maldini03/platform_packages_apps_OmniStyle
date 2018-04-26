@@ -241,8 +241,28 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </activity>
 
         <activity
-            android:name=".aqua"
-            android:label="@string/header_pack_label1" >
+            android:name=".aqua_color"
+            android:label="@string/aqua_color_title" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+         </activity>
+
+        <activity
+            android:name=".aqua_color_logo"
+            android:label="@string/aqua_color_logo_title" >
+            <intent-filter>
+                <action android:name="org.omnirom.DaylightHeaderPack1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+         </activity>
+
+        <activity
+            android:name=".aqua_dark"
+            android:label="@string/aqua_dark_title" >
             <intent-filter>
                 <action android:name="org.omnirom.DaylightHeaderPack1" />
 
