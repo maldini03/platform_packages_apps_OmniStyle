@@ -52,7 +52,6 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE := lib-picasso-target
-LOCAL_SDK_VERSION := current
 LOCAL_SRC_FILES := libs/picasso-2.5.2.jar
 LOCAL_UNINSTALLABLE_MODULE := true
 
